@@ -1,0 +1,91 @@
+* {
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* ALL THE ENTIRE BOX */
+.container {
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/* THE TOP BOX */
+
+.top {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* THE MIDDLE BOX */
+
+.middle {
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+/* THE BOTTOM BOX */
+
+.bottom {
+    display: flex; 
+    justify-content: space-between;
+}
+
+/* USER MAIN BOX*/
+
+.leftBox {
+    border: 4px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+h3 {
+    font-size: xx-large;
+}
+
+/* USERS BOXES */
+
+.users {
+    border: 4px solid black;
+    width: 650px;
+    padding: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    text-align: left;
+
+}
+.topUser {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    border-radius: 50%;
+}
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
+button {
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+h4 {
+    font-size: large;
+}
+
